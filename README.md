@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="building open-source Android apps · writing native runtimes in Rust · shipping AI agent skills · building in public" height="44">
+  <img src="assets/typing.svg" alt="building open-source Android apps · designing a private home screen launcher · writing native runtimes in Rust · shipping security tools and agent skills · building in public, one release at a time" height="44">
 </p>
 
 <p align="center">
@@ -18,16 +18,37 @@
 
 I build **open-source Android apps and AI developer tools**, and ship them in public, from first commit to signed release.
 
-- 🛠️ I like hard problems: native runtimes, encryption, media engines, agent tooling.
+- 🛠️ I like hard problems: native runtimes, launchers, encryption, media engines, security tooling, agent skills.
 - 🔓 Everything I publish is **open source**, with **no ads, no tracking and no accounts**.
 - 🚀 Ship fast, release often: every project builds and publishes itself through GitHub Actions.
 - 💬 Ask me about **Rust, Android internals, yt-dlp, Vulkan / wgpu, or AI agent skills**.
 
 ---
 
+### 🌙 Latest release: Nyxo Launcher
+
+<table>
+  <tr>
+    <td width="34%" align="center"><img src="assets/nyxo-strip.gif" alt="Nyxo letter strip" width="100%"></td>
+    <td width="34%" align="center"><img src="assets/nyxo-themes.gif" alt="Nyxo themes and clocks" width="100%"></td>
+    <td width="32%">
+      <b>A dark, private Android home screen.</b><br><br>
+      Privacy dots on every app · glass, hard glass &amp; water themes · 11 clock styles · widget stacks · icon packs · focus mode · usage breaker · backup &amp; restore.<br><br>
+      No internet permission. No accessibility service.<br><br>
+      <a href="https://github.com/beworkall/nyxo/releases/latest"><b>⬇ Get the APK</b></a>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 🧩 Featured projects
 
 <table>
+  <tr>
+    <td width="50%"><a href="https://github.com/beworkall/nyxo"><img src="assets/card-nyxo.png" alt="Nyxo Launcher" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/beworkall/pwntrail"><img src="assets/card-trail.png" alt="PwnTrail" width="100%"></a></td>
+  </tr>
   <tr>
     <td width="50%"><a href="https://github.com/beworkall/game-shell-native"><img src="assets/card-shell.png" alt="Game Shell Native" width="100%"></a></td>
     <td width="50%"><a href="https://github.com/beworkall/PageGrab"><img src="assets/card-grab.png" alt="PageGrab" width="100%"></a></td>
@@ -40,6 +61,8 @@ I build **open-source Android apps and AI developer tools**, and ship them in pu
 
 | Project | What it is | Get it |
 |---|---|---|
+| 🌙 **[Nyxo Launcher](https://github.com/beworkall/nyxo)** | Private Android home screen: privacy dots, glass themes, widget stacks, icon packs, 11 clocks, focus mode. No internet permission | [Releases](https://github.com/beworkall/nyxo/releases/latest) |
+| ● **[PwnTrail](https://github.com/beworkall/pwntrail)** | Pentest engagement recorder: scope guard, redaction, hash-chained evidence, automatic reports. 100% offline | `pipx install git+https://github.com/beworkall/pwntrail` |
 | 🌴 **[Game Shell Native](https://github.com/beworkall/game-shell-native)** | Native Android runtime for WebGPU / WebAssembly games: Rust + Wasmtime + wgpu on Vulkan, Winlator-style controls | [Releases](https://github.com/beworkall/game-shell-native/releases/latest) |
 | ⬇️ **[PageGrab](https://github.com/beworkall/PageGrab)** | Paste any link, get the file: bundled yt-dlp + ffmpeg, page sniffer, background queue, 10 languages | [Releases](https://github.com/beworkall/PageGrab/releases/latest) |
 | 🔒 **[Sealbox](https://github.com/beworkall/sealbox)** | Offline media vault with no internet permission: AES-256-GCM, Keystore-sealed keys, decoy vault, app disguise | [Releases](https://github.com/beworkall/sealbox/releases/latest) |
